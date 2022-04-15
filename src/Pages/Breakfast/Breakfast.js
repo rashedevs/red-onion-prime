@@ -3,12 +3,13 @@ import useFoods from '../../Hook/useFoods';
 import './Breakfast.css'
 
 const Breakfast = () => {
-    const [foods, setFoods] = useFoods('breakfast.json')
+    const [foods, setFoods] = useFoods()
+    const breakfast = foods.filter(food => food.category === 'breakfast')
     return (
         <div className="container my-3">
             <div className="nasta">
                 {
-                    foods?.map(food => <Card key={food.id} food={food}></Card>)
+                    breakfast?.map(food => <Card key={food.id} food={food}></Card>)
                 }
             </div>
         </div>

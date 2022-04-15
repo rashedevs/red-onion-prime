@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 import './Navbar.css'
 
 const Navbar = () => {
     return (
         <nav className='nav-container'>
-            <Link to="/breakfast">Breakfast</Link>
-            <Link to="/lunch">Lunch</Link>
-            <Link to="/dinner">Dinner</Link>
+            <CustomLink to="/breakfast">Breakfast</CustomLink>
+            <CustomLink to="/lunch">Lunch</CustomLink>
+            <CustomLink to="/dinner">Dinner</CustomLink>
         </nav>
     );
 };

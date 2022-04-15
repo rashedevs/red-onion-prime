@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import useFoods from '../../../Hook/useFoods';
 import WhyCard from './WhyCard/WhyCard';
 import './WhyUs.css'
 
 const WhyUs = () => {
-    const [foods, setFoods] = useFoods('icon1.json');
+    const [foods, setFoods] = useState();
+    useEffect(() => {
+        fetch('icon1.json')
+            .then(res => res.json())
+            .then(data => setFoods(data))
+    }, [])
     return (
         <div className='container mx-auto my-3'>
             <div className='mb-4'>
