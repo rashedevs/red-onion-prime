@@ -1,9 +1,15 @@
 import React from 'react';
+import Card from '../../Hook/Card/Card';
+import useFoods from '../../Hook/useFoods';
+import './Lunch.css'
 
 const Lunch = () => {
+    const [foods, setFoods] = useFoods('breakfast.json')
     return (
-        <div>
-            <h2>Lunch</h2>
+        <div className='container my-3 lunch'>
+            {
+                foods?.map(food => <Card key={food.id} food={food}></Card>)
+            }
         </div>
     );
 };

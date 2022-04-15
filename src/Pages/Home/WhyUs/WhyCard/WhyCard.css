@@ -1,0 +1,16 @@
+.why {
+    margin: 15px;
+}
+
+.why a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.arrow {
+    height: 17px;
+    width: 17px;
+    color: white;
+    background-color: lime;
+    border-radius: 30px;
+}

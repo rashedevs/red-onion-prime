@@ -1,0 +1,23 @@
+[
+    {
+        "id": "a1",
+        "img": "https://i.ibb.co/5Kqyjh6/adult-blur-blurred-background-687824.png",
+        "name": "Fast Delivery",
+        "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo ipsum voluptates blanditiis natus soluta dolore aliquid quasi maiores eligendi?",
+        "_img": "https://i.ibb.co/N7Nt8KJ/Group-204.png"
+    },
+    {
+        "id": "b2",
+        "img": "https://i.ibb.co/N7Vh7MC/chef-cook-food-33614.png",
+        "name": "A Good Auto Responder",
+        "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo ipsum voluptates blanditiis natus soluta dolorem aliquid quas maiores eligendi?",
+        "_img": "https://i.ibb.co/nBvzN5p/Group-245.png"
+    },
+    {
+        "id": "c3",
+        "img": "https://i.ibb.co/Jv503Dh/architecture-building-city-2047397.png",
+        "name": "Home Delivery",
+        "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo ipsum voluptates blanditiis natus soluta dolorem aliquid quasi maiore eligendi?",
+        "_img": "https://i.ibb.co/M63DMXX/Group-1133.png"
+    }
+]

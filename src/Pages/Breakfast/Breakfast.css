@@ -1,6 +1,13 @@
 .nasta {
-    margin: 20px 5px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px
+    grid-gap: 30px;
+}
+
+.baton {
+    background-color: rgb(177, 175, 175);
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
 }
