@@ -1,0 +1,30 @@
+.banner {
+    background-image: url('../../../images/bannerbackground.png');
+    width: 100%;
+    min-height: 500px;
+}
+
+.field {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field input {
+    background: #FFFF;
+    height: 40px;
+    width: 400px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.field button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(236, 33, 74);
+}
